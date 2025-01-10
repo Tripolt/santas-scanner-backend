@@ -33,7 +33,7 @@ app.get("/questions", (req: Request, res: Response) => {
 
 const { Schema } = mongoose;
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://santas-scanner-db-user:2ANRw6twh8_K_4f@spengergasse-mongodb-cl.rkfnn.mongodb.net/santas-scanner?retryWrites=true&w=majority&appName=Spengergasse-Mongodb-Cluster', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://tripoltmatteo:1234@dbicluster.04qdq.mongodb.net/?retryWrites=true&w=majority&appName=DBICluster', {
 
 });
 
